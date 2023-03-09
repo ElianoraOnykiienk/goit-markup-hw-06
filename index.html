@@ -26,9 +26,9 @@
                 <!--Шапка-->
                 <a href="./index.html" class="logo-first">WEB<span class="logo-second">STUDIO</span></a>
                 <ul class="link">
-                    <li class="item"><a href="./index.html" class="test-link current">Studio</a></li>
                     <li class="item"><a href="./portfolio.html" class="test-link">Portfolio</a></li>
                     <li class="item"><a href="" class="test-link">Contacts</a></li>
+                    <li class="item"><a href="./index.html" class="test-link current">Studio</a></li>
                 </ul>
             </nav>
 
@@ -379,6 +379,22 @@
                     </ul>
                 </div>
             </div>
+
+            <div class="footer-forms">
+                <p class="footer-title">Subscribe</p>
+                <form class="footer-form">
+                    <label for="footer-input">
+                        <input class="footer-input" id="footer-input" type="email" name="email" placeholder="E-mail" />
+                    </label>
+                    <button class="footer-form-button" type="submit">
+                        Subscribe
+                        <svg class="footer-icons">
+                            <use href="./images/icons.svg#icon-icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -390,36 +406,37 @@
             </button>
 
 
-            <h2 class="visually-hidden">Leave your contacts and we will call you back</h2>
-            <p class="modal-hero">Leave your contacts and we will call you back</p>
 
             <form name="contact-form" autocomplete="off" novalidate>
-                <label for="user-name">Name</label>
-                <input id="user-name" type="text" name="user-name" />
-            </form>
+                <p class="modal-hero">Leave your contacts and we will call you back</p>
+                <div class="form-section">
+                    <label class="form-lable" for="name">Name</label>
+                    <input class="form-input" id="name" type="text" name="name" />
+                </div>
 
-            <form>
-                <label for="phone-name">Phone</label>
-                <input id="phone-name" type="text" name="phone-name" />
-            </form>
+                <div class="form-section">
+                    <label class="form-lable" for="phone">Phone</label>
+                    <input class="form-input" id="phone" type="text" name="phone" />
+                </div>
 
-            <form>
-                <label for="user-email">Email</label>
-                <input id="user-email" type="text" name="user-email" />
-            </form>
+                <div class="form-section">
+                    <label class="form-lable" for="email">Email</label>
+                    <input class="form-input" id="email" type="text" name="email" />
+                </div>
 
-            <form>
-                <label for="user-comment">Comment</label>
-                <textarea class="comment" id="user-comment" placeholder="Text input">
+                <div class="form-section">
+                    <label class="form-lable" for="user-comment">Comment</label>
+                    <textarea class="form-comment" id="user-comment" name="user-comment"
+                        placeholder="Text input"></textarea>
+                </div>
 
-                </textarea>
+                <div class="form-checkbox">
+                    <input type="checkbox" id="user-checkbox" />
+                    <label class="checkbox-form" for="user-checkbox">I accept the terms and conditions of the
+                        <a class="Privacy Policy" href="">Privacy Policy</a>
+                    </label>
+                </div>
             </form>
-
-            </form>
-            <label for="checkbox">I accept the terms and conditions of the Privacy Policy</label>
-            <input type="checkbox" name="checkbox">
-            </form>
-
 
         </div>
     </div>
