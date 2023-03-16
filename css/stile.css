@@ -341,7 +341,8 @@
      text-align: center;
      letter-spacing: 0.02em;
      margin-bottom: 16px;
-     margin-top: 24px;
+     padding-top: 72px;
+
 
  }
 
@@ -438,12 +439,14 @@
  .label-comment {
 
      font-size: 12px;
-     line-height: 1.17px;
+     line-height: 1.17;
      letter-spacing: 0.01em;
      color: #757575;
+     display: block;
  }
 
  .form-comment {
+     display: block;
      outline: none;
      margin-top: 4px;
      width: 100%;
@@ -470,6 +473,9 @@
      height: 0;
  }
 
+ .contact-form {
+     margin-bottom: 8px;
+ }
 
  .span-check {
 
@@ -937,11 +943,16 @@
      color: #FFFFFF;
      justify-content: center;
      align-items: center;
+     margin-top: 0;
+     margin-bottom: 16px;
+
 
  }
 
  .footer-forms {
-     display: block;
+
+     width: 453px;
+     height: 80px;
      margin-left: 80px;
  }
 
@@ -949,6 +960,8 @@
 
  .footer-form {
      color: #FFFFFF;
+     display: flex;
+
  }
 
 
@@ -959,7 +972,7 @@
      height: 40px;
      background: none;
      border-radius: 4px;
-     border: 1px solid rgba(255, 255, 255, 1);
+     border: 1px solid rgba(255, 255, 255, 0.3);
      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 
      outline: 0;
@@ -985,9 +998,8 @@
      align-items: center;
      padding: 8px 24px;
      gap: 16px;
-
      margin-left: 24px;
-     display: inline-flex;
+     display: flex;
      cursor: pointer;
 
      background: #4D5AE5;
@@ -1004,6 +1016,9 @@
      background: var(--color-hover);
  }
 
+ .footer-label {
+     display: block;
+ }
 
 
 
